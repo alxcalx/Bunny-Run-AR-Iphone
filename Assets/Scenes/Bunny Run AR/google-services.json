@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "322910427731",
+    "firebase_url": "https://bunny-run-ar.firebaseio.com",
+    "project_id": "bunny-run-ar",
+    "storage_bucket": "bunny-run-ar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322910427731:android:9b72a39f5e940f491844a6",
+        "android_client_info": {
+          "package_name": "com.lexrlabs.bunnyrun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322910427731-mmik1itfg8cc27ke8fsj70th6ajk37oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaHNnR0n0XO3vOm5k_QaGhLCzAzkCZkcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322910427731-mmik1itfg8cc27ke8fsj70th6ajk37oi.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "322910427731-pnp66afb69p3a9kua7cf161j1inagmh7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lexrlabs.bunnyrun"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
