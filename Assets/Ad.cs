@@ -1,4 +1,4 @@
-﻿using GoogleMobileAds.Api;
+using GoogleMobileAds.Api;
 using GoogleMobileAds.Common;
 using UnityEngine;
 using UnityEngine.Events;
@@ -45,7 +45,7 @@ private AdRequest CreateAdRequest()
 
     public void RequestRewardedAd()
     {
-        this.rewardedAd = new RewardedAd("ca-app-pub-3940256099942544/5224354917");
+        this.rewardedAd = new RewardedAd("ca-app-pub-6062753775528889/4241950033");
 
         this.rewardedAd.OnAdClosed += (sender, args) => OnAdClosedEvent.Invoke();
         this.rewardedAd.OnAdFailedToLoad += (sender, args) => OnAdFailedtoLoadEvent.Invoke();
@@ -65,7 +65,7 @@ private AdRequest CreateAdRequest()
 #elif UNITY_ANDROID
         string adUnitId = "ca-app-pub-3940256099942544/1033173712";
 #elif UNITY_IPHONE
-        string adUnitId = "ca-app-pub-3940256099942544/4411468910";
+        string adUnitId = "ca-app-pub-6062753775528889/6807074630";
 #else
         string adUnitId = "unexpected_platform";
 #endif

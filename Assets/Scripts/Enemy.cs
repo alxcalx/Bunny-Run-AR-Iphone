@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation.Samples;
@@ -23,6 +23,7 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+if(Instructions.startgame == true){
 
         if (CollisionDetection.gameend == false)
         {
@@ -35,14 +36,24 @@ public class Enemy : MonoBehaviour
 
         }
 
-        if(CollisionDetection.gameend == true)
+        if(CollisionDetection.gameend == true )
         {
             speed = 0;
 
             transform.Rotate(0, 0, 0, Space.World);
 
             
-        }
+        }}
+
+else {
+ speed = 0;
+}
+
+      
+
+     
+
+
 
         
 
